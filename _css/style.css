@@ -1,0 +1,120 @@
+/*RESETANDO O CSS*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*CORPO DA NOSSA APLICACAO*/
+body{
+	font: 400 16px Quicksand;
+}
+
+/*ATACANDO A DIV LOGIN*/
+#login{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	border: 1px solid #f1f1f1;
+	padding: 20px;
+}
+
+.logo{
+	width: 250px;
+	height: 72px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+/*ACATANDO O BOTAO CADASTRAR*/
+#cadastrar{
+	border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	height: 50px;
+	width: 160px;
+	background-color: #C0C0C0;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+/*LINK DO BOTAO CADASTRAR*/
+#cadastrar a{
+	padding-top: 15px;
+	display: block;
+	font: 400 15px Quicksand;
+	color: #999;
+}
+#cadastrar:hover a{
+	color: #fff;	
+}
+
+/*AO PASSAR O MOUSE*/
+#cadastrar:hover{
+	background-color: #FA0E4B;
+	color: #fff;
+}
+
+/*ATACANDO A DIVE˜login˜, E ACESSANDO  AS SUAS PROPRIEDADES, NESSE CASO AS LABEL JUNTO AOS SEUS BOTOES*/
+.form label{
+	display: block;
+	padding-top: 5px;
+}
+
+/*DENTRO DA DIV LOGIN EU ESTOU ATACANDO OS BOTOES E CAIXAS DE TEXTO*/
+.acomodar{
+	margin: 0 auto;
+	width: 250px;
+}
+
+/*PARA FICAR MAIS BONITO AS CAIXAS DE TEXTO*/
+.txt{
+	/*border: none;*/
+	height: 40px;
+	width: 250px;
+	border: thin solid #f1f1f1;
+}
+
+/*BOTAO ENTER*/
+.sb{
+	display: block; 
+	border:none;
+	width: 250px;
+	height: 40px;
+	margin-top: 10px;
+	cursor: pointer;
+	font: 400 13px Quicksand;
+	color: #999;
+
+}
+
+/*EFEITOS DO BOTAO ENTER*/
+.sb:hover{
+	background-color: #FA0E4B;
+	color: #fff;
+}
+
+/*CLASSES DE HERANCA - BORDAS ARREDONDADAS*/
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+
+/*NÁO SEI PRA QUE SERVE*/
+.fleft{
+	float: left;
+}
+
+/*NÁO SEI PRA QUE SERVE*/
+.fright{
+	fright: right;
+}
